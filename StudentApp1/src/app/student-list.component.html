@@ -1,0 +1,21 @@
+<div class="card">
+        <div class="card-header bg-primary text-light">
+            Student List
+        </div>
+        <div class="card-body">
+            <table class="table table-hover">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Num</th>
+                </tr>
+                <tr *ngFor = "let s of student" >
+                    <td>{{s.eid}}</td>
+                    <td>{{s.name}}</td>
+                    <td>{{s.email}}</td>
+                    <td>{{s.phno}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
