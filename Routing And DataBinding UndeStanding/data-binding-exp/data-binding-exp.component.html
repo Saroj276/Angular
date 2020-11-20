@@ -1,0 +1,35 @@
+<body style="text-align: center;">
+    <br />
+    <br />
+    <br />
+
+    
+<p style="color: blue;">{{title}}</p>
+
+
+<br/>
+<p style="color: rgb(255, 0, 179);">2---Property Binding</p>
+<img [src]="imgUrl" /> <!-- Property Binding -->  
+<br/>
+
+
+<p style="color: rgb(4, 0, 255);">3---Event Binding   
+<button (click)="onSave($event)">Save</button> <!--Event Binding--><br/>    </p>
+{{otpt}}
+<br />
+
+<h2 style="color: rgb(17, 17, 19);">4-- Two-way Binding Example</h2>    
+   <input [(ngModel)]="fullName" /> <br/><br/>    
+<p> {{fullName}} </p>  
+
+<br/>
+<br/>
+<br />
+<br/>
+<br />
+<br/>
+<br />
+
+<br />
+<a routerLink="/">Back to Home</a>
+</body>
