@@ -1,0 +1,18 @@
+<div style="text-align: center;" >
+
+<zxing-scanner (scanSuccess)="onCodeResult($event)"></zxing-scanner>
+
+<section class="results" *ngIf="qrResultString">
+	<br><br/><br/> <small>Result</small>
+	<hr>
+  
+  <button mat-icon-button (click)="clearResult()">again Scan</button>
+</section>
+
+<div>
+  <a href="{{qrResultString}}" target="_blank">{{qrResultString }}</a>
+</div><br/><br/>
+
+</div><br/>
+<h4 style="text-align: center;color: rgb(161, 11, 11); ">
+    <button routerLink=''>back</button></h4>
