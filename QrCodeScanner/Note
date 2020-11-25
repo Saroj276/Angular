@@ -1,0 +1,5 @@
+if you want to check this proj on mobile so run this cmd
+ ng serve --host 0.0.0.0 --ssl true -----------in vs code editor
+ and  pc and mobile should be connect with the same network
+ run this url on mobile https://pc ip address:4200
+ 
